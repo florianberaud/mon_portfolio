@@ -169,37 +169,7 @@ header{
 
 /*A propos de moi*/
 
-#about{
-    background-color: #636464;
-}
 
-#about .container{
-    padding: 70px 15px;
-    max-width: 1600px;
-    margin: 0 auto;
-    flex-direction: row;
-}
-
-#about .container .left{
-    max-width: 700px;
-}
-
-#about .container .left h3{
-    font-size: 3em;
-    color: #333;
-    margin-bottom: 25px;
-}
-
-@media screen and (max-width: 991px) {
-    #about .container{
-        flex-direction: column;
-    }
-    
-    #about .container .left{
-        margin-bottom: 50px;
-    }
-    
-}
 
 
 /*mes compétences*/
