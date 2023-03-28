@@ -169,8 +169,43 @@ header{
 
 /*A propos de moi*/
 
+#about {
+    background-color: #eef0f4;
+}
+#about. .container {
+    padiing: 70px 15px;
+    max-width: 1600x;
+    margin: 0 auto ;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    felx-direction :row;
+    
+}
 
+#about .container .left {
+   max-width: 700px;
+}
 
+#about .container .left h3 {
+   font-size: 3rem;
+    color : #2a2a2a;
+    margin-bottom: 25px;
+}
+
+#about .container .right{
+   width:  50%;
+}
+
+@media screen and (max-width: 750px) {
+    #about .container{
+        flex-direction: column;
+    }
+    
+    #about .container .left {
+        margin-bottom: 50px;
+    }
+}
 
 /*mes compétences*/
 
